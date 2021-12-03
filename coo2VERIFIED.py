@@ -1,3 +1,5 @@
+#! /usr/bin/python3
+
 import random
 from random import randint
 
@@ -50,10 +52,10 @@ class Santa:
                 pass
             else:
                 if check_dict[lync]>0 and check_dict[lync2]>0:
-                    count+=1
-                    check_dict[lync]=check_dict[lync]-1
-                    check_dict[lync2]=check_dict[lync2]-1
-                    print(len(a_dictionary))
+                    count +=1
+                    check_dict[lync]=check_dict[lync]
+                    check_dict[lync2]=check_dict[lync2]
+                    #print(len(a_dictionary))
                     print(lync,'Matched to ',lync2)
                     if count > len(a_dictionary):
                         return
