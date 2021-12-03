@@ -34,19 +34,19 @@ us effective constructs that were taught in this class, are well documented and
 conform to “pythonic” best practices. Again, think of this as something you can show 
 to an employer as an example of why they should hire you as a python developer. 
 4. At the minimum, your code should include at least one of each of the following: 
- container type (list, tuple, set, or dictionary) 
- iteration type (for, while) 
- conditional (if) 
- try blocks 
- user-defined functions 
- input and/or output file (submit input data) 
- user-defined class. The class must be imported by your main program and have 
+   container type (list, tuple, set, or dictionary) 
+   iteration type (for, while) 
+   conditional (if) 
+   try blocks 
+   user-defined functions 
+   input and/or output file (submit input data) 
+   user-defined class. The class must be imported by your main program and have 
 the following required structures. 
-o at least 1 private and 2 public self attributes 
-o at least 1 private and 1 public method that take arguments, return values 
-and are used by your program 
-o __init__() method that takes at least 1 argument 
-o __repr__() method
+    o at least 1 private and 2 public self attributes 
+    o at least 1 private and 1 public method that take arguments, return values 
+      and are used by your program 
+    o __init__() method that takes at least 1 argument 
+    o __repr__() method
 5. Provide unit tests that prove that your class methods work as expected. The tests 
 should evaluate results using assert statements. 
 Before beginning your project, feel free to submit a 1-2 sentence project proposal so 
